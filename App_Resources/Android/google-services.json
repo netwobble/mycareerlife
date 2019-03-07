@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "501901082980",
+    "firebase_url": "https://mycareerlifedev.firebaseio.com",
+    "project_id": "mycareerlifedev",
+    "storage_bucket": "mycareerlifedev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501901082980:android:cab8b5648ccef1a3",
+        "android_client_info": {
+          "package_name": "com.ampsire.mycareerlifedev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501901082980-jp8fe0qdo69uete5jol2hdsio5vrorlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGpQVEU2frARj5saYgnBUSKTZAqQG1JHA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

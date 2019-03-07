@@ -1,7 +1,10 @@
 {
   "name": "mycareerlife",
   "nativescript": {
-    "id": "org.nativescript.mycareerlife"
+    "id": "com.ampsire.mycareerlife",
+    "tns-ios": {
+      "version": "5.2.0"
+    }
   },
   "version": "0.0.0",
   "scripts": {
@@ -20,12 +23,14 @@
     "@angular/common": "~7.1.0",
     "@angular/compiler": "~7.1.0",
     "@angular/core": "~7.1.0",
+    "@angular/fire": "^5.1.1",
     "@angular/forms": "~7.1.0",
     "@angular/http": "~7.1.0",
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
     "core-js": "^2.5.4",
+    "firebase": "^5.8.5",
     "nativescript-angular": "~7.1.0",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
