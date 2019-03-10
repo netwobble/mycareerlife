@@ -1,9 +1,12 @@
 {
   "name": "mycareerlife",
   "nativescript": {
-    "id": "com.ampsire.mycareerlife",
+    "id": "com.ampsire.mycareerlifedev",
     "tns-ios": {
       "version": "5.2.0"
+    },
+    "tns-android": {
+      "version": "5.2.1"
     }
   },
   "version": "0.0.0",
@@ -14,6 +17,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "clean": "npx rimraf -- hooks node_modules platforms webpack.config.js package-lock.json && npm i",
     "android": "tns run android --bundle",
     "ios": "tns run ios --bundle"
   },
@@ -32,6 +36,7 @@
     "core-js": "^2.5.4",
     "firebase": "^5.8.5",
     "nativescript-angular": "~7.1.0",
+    "nativescript-plugin-firebase": "^8.0.0",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~6.3.3",

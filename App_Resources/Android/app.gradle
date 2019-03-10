@@ -8,7 +8,8 @@
 android {  
   defaultConfig {  
     generatedDensities = []
-    applicationId = "__PACKAGE__" 
+    multiDexEnabled true
+    applicationId = "com.ampsire.mycareerlifedev" 
     
     //override supported platforms
     // ndk {
